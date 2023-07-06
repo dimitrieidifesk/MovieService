@@ -14,7 +14,7 @@ It automatically collects movie news data, stores it in a PostgreSQL database, a
 (extract, transform and load), passes the data to Elasticsearch, where you can search using the FastAPI API.
 Convenient launch with Docker
 
-## Микросервисная архитектура:
+## Аrchitecture:
 ![architecture](https://github.com/dimitrieidifesk/MovieService/assets/123076304/04793da4-3707-4599-bddb-a277c96b951e)
 
 ## Technologies used in the project
@@ -55,6 +55,6 @@ Buy proxy addresses and put them in /worker/core/proxies.txt or don't use proxie
 1. You may need to collect Django admin static files and put them in nginx_config folder:
    
        python manage.py collectstatic
-2. Примените Django миграции:
+2. Apply Django migrations:
    
        docker exec -it movieparser-admin_panel-1 python manage.py migrate
