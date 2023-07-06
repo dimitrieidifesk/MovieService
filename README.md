@@ -38,7 +38,7 @@ Web Server/Proxy:
 - Parsing with a proxy
 
 ## installation
-Buy proxy addresses and put them in /worker/proxies.txt or don't use proxies
+Buy proxy addresses and put them in /worker/core/proxies.txt or don't use proxies
 
 1. Clone the repository:
    
