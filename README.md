@@ -1,11 +1,10 @@
 # MovieService
-![top-language](https://img.shields.io/github/languages/top/dimitrieidifesk/MovieService)
 
 ![watchers](https://img.shields.io/github/watchers/dimitrieidifesk/MovieService?style=social)
 ![forks](https://img.shields.io/github/forks/dimitrieidifesk/MovieService?style=social)
 ![start](https://img.shields.io/github/stars/dimitrieidifesk/MovieService?style=social)
 
-MovieService - это backend приложения, разработанное на языке Python, используя микросервисную архитектуру, предназначенное для удобного поиска фильмов и сериалов.
+MovieService - это backend приложения, разработанное на Python, используя микросервисную архитектуру, предназначенное для удобного поиска фильмов и сериалов.
 Он осуществляет автоматический сбор данных о кино-новинках, сохраняет их в базу данных PostgreSQL, дает возможность редактировать и данные админкой Django, а затем, с помощью процесса ETL 
 (извлечение, преобразование и загрузка), передает данные в Elasticsearch, где можно осуществлять поиск с использованием API на FastAPI.
 Удобный запуск Docker
@@ -18,21 +17,21 @@ Convenient launch with Docker
 ## Микросервисная архитектура:
 ![architecture](https://github.com/dimitrieidifesk/MovieService/assets/123076304/04793da4-3707-4599-bddb-a277c96b951e)
 
-## Технологии используемые в проекте
+## Technologies used in the project
 
-Фреймворки:
+Frameworks:
 
 - FastAPI, Django
 
-Хранилища:
+Storage:
 
 - PostgreSQL, ElasticSearch, Redis
 
-Контейнеренизация:
+Containerization
 
 - Docker, Docker-Compose
 
-Веб-сервера\Прокси:
+Web Server/Proxy:
 
 - Gunicorn, Uvicorn, Nginx
 
